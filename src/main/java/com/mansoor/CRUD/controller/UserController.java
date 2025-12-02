@@ -1,8 +1,11 @@
-package com.mansoor.CRUD;
+package com.mansoor.CRUD.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+
+import com.mansoor.CRUD.models.User;
+import com.mansoor.CRUD.repository.UserRepository;
 
 import java.util.List;
 import java.util.Optional;

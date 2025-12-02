@@ -1,11 +1,14 @@
-package com.mansoor.CRUD;
+package com.mansoor.CRUD.models;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
- @Entity//: Marks this class as a JPA entity, mapping it to a database table named 'user'.
+import jakarta.persistence.Table; // Import the Table annotation
+
+@Entity
+@Table(name = "user_master") // <-- FIX: Explicitly set the table name to "users" to avoid keyword collision.
 public class User {
 
     // @Id: Specifies the primary key of the entity.
