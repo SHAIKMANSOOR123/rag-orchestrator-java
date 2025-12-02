@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CrudApplication {
+public class RAG_OrchestratorApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CrudApplication.class, args);
+		SpringApplication.run(RAG_OrchestratorApplication.class, args);
 	}
 
 }

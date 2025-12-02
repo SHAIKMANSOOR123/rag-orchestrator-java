@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.mansoor</groupId>
-	<artifactId>CRUD</artifactId>
+	<artifactId>RAG_Orchestrator</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>CRUD</name>
+	<name>RAG_Orchestrator</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
